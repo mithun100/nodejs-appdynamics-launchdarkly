@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-appdynamics-launchdarkly",
+  "version": "1.0.0",
+  "description": "\"An application which shows the AppDynamics & LaunchDarkly integration with Node.js application\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mithun100/nodejs-appdynamics-launchdarkly.git"
+  },
+  "keywords": [
+    "LaunchDarkly",
+    "AppDynamics",
+    "Node.js"
+  ],
+  "author": "Mithun Banerjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mithun100/nodejs-appdynamics-launchdarkly/issues"
+  },
+  "homepage": "https://github.com/mithun100/nodejs-appdynamics-launchdarkly#readme",
+  "dependencies": {
+    "appdynamics": "^22.11.0",
+    "express": "^4.18.2",
+    "launchdarkly-node-server-sdk": "^7.0.0"
+  }
+}
